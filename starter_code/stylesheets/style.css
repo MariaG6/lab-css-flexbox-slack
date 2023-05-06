@@ -9,7 +9,7 @@ links blue: #2E71A6
 footer links grey: #454245
 */
 
-    .main-nav {
+.main-nav {
     background-color: #540B51;
     width: 100vw;
 }
@@ -29,8 +29,15 @@ footer links grey: #454245
         display: flex;
         justify-content: flex-start;
     }
+}
 
-    #menu {
-        
-    }
+.collapse-menu{
+    position: fixed;
+    top:0;
+    right: 0;
+    height: 250px;
+    height: 100vh;
+    background-color: #540B51;
+    padding: 20px;
+    z-index: none;
 }
