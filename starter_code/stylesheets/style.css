@@ -92,8 +92,45 @@ body {
     color:#ECB12F;
   }
 
+  
+  #email{
+    display: inline-block;
+    background-color: #fff;
+    color: #69056d;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 90vw;
+  }
 
+  #google{
+    display: inline-block;
+    background-color:#4285F4 ;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 90vw;
+  }
+  
+  #google img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: #ffffff;
+  }
+  
 
+  #email:hover, #google:hover {
+    background-color: #69056d;
+  }
+  
   /* Mobile-specific styles */
   
   @media (max-width: 768px) {
