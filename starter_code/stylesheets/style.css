@@ -1,10 +1,10 @@
 /*
-background purple: #540B51
++background purple: #540B51
 background ivory: #F3EAE2
 button blue: #4285F4
 titles black: #191817
 paragraph black: #000000
-paragraph yellow: #ECB12F
++paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
@@ -40,6 +40,14 @@ body {
     cursor: pointer;
     padding: 5px;
   }
+
+  .search-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 180px;
+  }
   
   .menu-btn img {
     width: 24px;
@@ -67,6 +75,25 @@ body {
     text-decoration: none;
   }
   
+  #main-title {
+    text-align: center;
+    font-size: larger;
+  }
+
+  #main-title h1 {
+    color:white;
+  }
+
+  .header-p {
+    color:white;
+  }
+
+  .header-span {
+    color:#ECB12F;
+  }
+
+
+
   /* Mobile-specific styles */
   
   @media (max-width: 768px) {
