@@ -130,7 +130,71 @@ body {
   #email:hover, #google:hover {
     background-color: #69056d;
   }
+
+  #header-img {
+    margin-top: 20px;
+    width: 100vh;
+    height: auto;
+  }
+
+  .main-section {
+    background-color: #F3EAE2;
+    position: relative;
+    z-index: 5;
+    top:-120px; opacity:1;
+  }
+
+  #main-section-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .companies-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .companies-img {
+    width: 15%; 
+    height: auto;
+    margin: 15px;
+  }
+
+  .main-section-img {
+    width: 400px;
+    margin-top: 75px;
+  }
+
+  .main-section-img-right{
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 75px;
+  }
   
+  .main-content {
+
+  }
+
+.main-content-title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.main-content-p {
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main-content a {
+  text-decoration: none;
+  color: #2E71A6;
+  padding-left: 20px;
+}
+
   /* Mobile-specific styles */
   
   @media (max-width: 768px) {
