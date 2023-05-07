@@ -170,12 +170,8 @@ body {
 
   .main-section-img-right{
     width: 400px;
-    margin-left: 80px;
     margin-top: 75px;
-  }
-  
-  .main-content {
-
+    float: right;
   }
 
 .main-content-title {
@@ -195,6 +191,170 @@ body {
   padding-left: 20px;
 }
 
+.team-section {
+  background-color: white;
+}
+
+.team-section > h3 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+.team-section-p {
+  text-align:center;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#meet-btn {
+  display: inline-block;
+  background-color: #69056d;
+  color:white;
+  padding: 10px 20px;
+  border: solid 2px #69056d;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 90vw;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+#talk-btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #69056d;
+  padding: 10px 20px;
+  border: solid 2px #69056d;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 90vw;
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bold;
+}
+
+.team-section-list {
+  list-style: none;
+  padding-top: 20px;
+}
+
+.team-section-list span {
+  color:#69056d;
+  font-weight: bolder;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.text-team-list {
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.quote {
+  font-size: small;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  color: #454245;
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-section {
+  background-color: #69056d;
+  margin-top: -30px;
+}
+
+.welcome-section > h3 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 30px;
+  color:white;
+}
+
+#try-btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #69056d;
+  padding: 15px 20px;
+  border: solid 2px #69056d;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  width: 90vw;
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bold;
+}
+
+#sales-btn {
+  display: inline-block;
+  background-color: #69056d;
+  color:white;
+  padding: 15px 20px;
+  border: solid 2px white;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 90vw;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+#logo-footer {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: -80px;
+  margin-bottom: 50px;
+}
+
+.footer-section {
+  display: flex;
+  margin-top: -40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
+  color:#454245;
+}
+
+.footer-section li {
+  list-style: none;
+  margin-top: 25px;
+}
+
+#footer-menu {
+  list-style: none;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+#footer-menu > li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#footer-menu a {
+  text-decoration: none;
+  color:#2E71A6;
+}
+
+#footer-icons {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
   /* Mobile-specific styles */
   
   @media (max-width: 768px) {
