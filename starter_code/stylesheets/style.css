@@ -380,4 +380,54 @@ body {
       display: block;
     }
   }
+   
+  /*  Medium-specific styles */
+
+  @media screen and (max-width: 1440px) and (min-width: 1024px){
+    .main-nav{
+      display: flex;
+      justify-content: center;
+      margin-top: -110px;
+      margin-bottom: 50px;
+      margin-left: 50px;
+      padding-left: 20px;
+    }
+    .header-content {
+      padding: 10px 0;
+    }
+  
+    .logo {
+      width: 100px;
+    }
+  
+    .nav-links {
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+      margin: 50px;
+    }
+  
+    .nav-links li {
+      margin: 20px;
+
+    }
+  
+    .main-nav.show {
+      display: block;
+    }
+    .menu-btn{
+      visibility: hidden;
+    }
+   #try{
+    background-color: white;
+    color: #540B51;
+    padding: 10px 20px ;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    float: right;
+   }
+  }
+   
+
   
