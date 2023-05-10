@@ -466,6 +466,101 @@ body {
     padding: 10px;
     margin-bottom: 200px;
   }
+#email{
+    display: inline-block;
+    background-color: #fff;
+    color: #69056d;
+    padding: 20px 20px;
+    border: none;
+    font-size: 18px;
+    margin-right: 450px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 50vw;
+    border-radius: 5px;
+    font-weight: bold;
+
+  }
+
+  #google{
+    display: inline-block;
+    background-color:#4285F4 ;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    margin-right: 450px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 50vw;
+    border-radius: 5px;
+    font-weight: bold;
+
+  }
+  
+  #google img {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    padding: 10px
+  }
+  #google-text{
+    padding:50px;
+
+   
+  }
+  .header-p {
+    color:white;
+    font-size: 30px;
+    width: 30vh;
+    text-align: left;
+    /* padding: px; */
+    margin:50px;
+  }
+
+   .main-section {
+    background-color: #F3EAE2;
+    position: relative;
+    z-index: 10;
+    top:-200px; opacity:1;
+  }
+
+  #meet-btn {
+  display: inline-block;
+  background-color: #69056d;
+  color:white;
+  padding: 10px 20px;
+  border: solid 2px #69056d;
+  margin-right: 450px;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 50vw;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+#talk-btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #69056d;
+  padding: 10px 20px;
+  border: solid 2px #69056d;
+  margin-right: 450px;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 50vw;
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bold;
+}
+
+.section-btn{
+  display: flex;
+  justify-content: center;
+}
   }
    
   
