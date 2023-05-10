@@ -69,7 +69,7 @@
     <main class="main-section">
       <section class="companies-section">
         <p id="main-section-title">Trusted by companies all over the world</p>
-        <div>
+        <div class="companies-img-container">
           <img
             src="./images/logo-airbnb.png"
             alt="Airbnb logo"
@@ -78,22 +78,23 @@
           <img
             src="./images/logo-nasa.png"
             alt="NASA logo"
-            class="companies-img"
+            class="companies-img companies-img-circle"
           />
           <img
             src="./images/logo-uber.png"
             alt="Uber logo"
-            class="companies-img"
+            class="companies-img companies-img-circle"
           />
           <img
             src="./images/logo-target.png"
             alt="Target logo"
-            class="companies-img"
+            class="companies-img companies-img-circle"
           />
           <img
             src="./images/logo-nyt.png"
             alt="New York Times logo"
             class="companies-img"
+            id="new-time-logo"
           />
           <img
             src="./images/logo-spotify.png"
@@ -108,25 +109,33 @@
           <img
             src="./images/connectedness-mobile.png"
             alt="connectedness"
-            class="main-section-img"
+            class="main-section-img hidden-image"
           />
         </div>
 
         <div class="main-content">
-          <h2 class="main-content-title">Bring your team together</h2>
+          <h2 class="main-content-title connect-title">
+            Bring your team together
+          </h2>
 
-          <p class="main-content-p">
+          <p class="main-content-p main-content-p-desktop">
             At the heart of Slack are channels: organized spaces for everyone
             and everything you need for work. In channels, it's easier to
             connect across departments, offices, time zones and even other
             companies.
           </p>
 
-          <a href="#">
+          <a href="#" class="main-content-p-desktop">
             <span>Learn more about channels</span>
             <img src="./images/icon-arrow-right.png" alt="arrow-link" />
           </a>
         </div>
+        <img
+          src="./images/connectedness.png"
+          alt="connectness"
+          class="hidden-img-mobile desktop-img"
+          id="connect-img-position"
+        />
       </section>
 
       <section>
@@ -135,12 +144,19 @@
             <img
               src="./images/flexibility-mobile.png"
               alt="flexibility"
-              class="main-section-img-right"
+              class="main-section-img-right hidden-image"
+            />
+            <img
+              src="./images/flexibility.png"
+              alt="flexibility"
+              class="hidden-img-mobile desktop-img main-section-img-right"
             />
           </div>
 
-          <h2 class="main-content-title">Choose how you want to work</h2>
-          <p class="main-content-p">
+          <h2 class="main-content-title" id="flexy-title">
+            Choose how you want to work
+          </h2>
+          <p class="main-content-p" id="main-content-p-desktop">
             In Slack, you’ve got all the flexibility to work when, where and how
             it’s best for you. You can easily chat, send audio and video clips,
             or hop on a huddle to talk things out live.
@@ -158,25 +174,31 @@
           <img
             src="./images/speed-mobile.png"
             alt="speed"
-            class="main-section-img"
+            class="main-section-img hidden-image"
           />
         </div>
 
-        <div class="main-content">
-          <h2 class="main-content-title">
+        <div class="main-content speed-content-position">
+          <h2 class="main-content-title connect-title">
             Move faster with your tools in one place
           </h2>
-          <p class="main-content-p">
+          <p class="main-content-p main-content-p-desktop">
             With your other work apps connected to Slack, you can work faster by
             switching tabs less. And with powerful tools like Workflow Builder,
             you can automate away routine tasks.
           </p>
 
-          <a href="#">
+          <a href="#" class="main-content-p-desktop">
             <span>Learn more about the Slack platform</span>
             <img src="./images/icon-arrow-right.png" alt="arrow-link" />
           </a>
         </div>
+        <img
+          src="./images/speed.png"
+          alt="speed"
+          class="hidden-img-mobile desktop-img"
+          id="speed-img-position"
+        />
       </section>
 
       <section class="team-section">
@@ -228,9 +250,10 @@
 
       <section class="welcome-section">
         <h3>Welcome to your new digital HQ</h3>
-
-        <button id="sales-btn">Talk to sales</button>
-        <button id="try-btn">Try for free</button>
+        <div class="section-btn">
+          <button id="try-btn">Try for free</button>
+          <button id="sales-btn">Talk to sales</button>
+        </div>
       </section>
     </main>
 

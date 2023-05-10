@@ -191,6 +191,7 @@ body {
   text-decoration: none;
   color: #2E71A6;
   padding-left: 20px;
+
 }
 
 .team-section {
@@ -382,11 +383,14 @@ body {
     .main-nav.show {
       display: block;
     }
+    .hidden-img-mobile{
+      display:none;
+    }
   }
    
   /*  Medium-specific styles */
 
-  @media screen and (max-width: 1440px) and (min-width: 1024px){
+  @media  (min-width: 1024px){
     .main-nav{
       display: flex;
       justify-content: center;
@@ -396,6 +400,7 @@ body {
       margin-left: 50px;
       padding-left: 20px;
     }
+    .quote { display:none;}
     .header-content {
       padding: 10px 0;
     }
@@ -465,6 +470,7 @@ body {
     background-color: #540B51;
     padding: 10px;
     margin-bottom: 200px;
+    padding-bottom: 150px;
   }
 #email{
     display: inline-block;
@@ -483,30 +489,28 @@ body {
   }
 
   #google{
-    display: inline-block;
-    background-color:#4285F4 ;
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
-    font-size: 18px;
     margin-right: 450px;
-    cursor: pointer;
-    margin-top: 10px;
     width: 50vw;
     border-radius: 5px;
     font-weight: bold;
+    justify-content: center;
+    padding-bottom: 20px;
 
   }
   
   #google img {
-    width: 20px;
-    height: 20px;
-    margin-right: 20px;
-    background-color: #ffffff;
-    padding: 10px
+   
+    padding:10px;
+    float: left;
+    
+    
   }
   #google-text{
-    padding:50px;
+    text-align: center;
+    padding-bottom: -10px;
+    margin-bottom: 5000px;
+    
+
 
    
   }
@@ -527,41 +531,180 @@ body {
   }
 
   #meet-btn {
-  display: inline-block;
-  background-color: #69056d;
-  color:white;
-  padding: 10px 20px;
-  border: solid 2px #69056d;
-  margin-right: 450px;
-  margin-top: 10px;
-  margin-left: 10px;
-  cursor: pointer;
-  width: 50vw;
-  text-transform: uppercase;
-  font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-weight: bold;
+    width:fit-content;
+    font-size: 18px;
+  
 }
 
 #talk-btn {
-  display: inline-block;
-  background-color: #fff;
-  color: #69056d;
-  padding: 10px 20px;
-  border: solid 2px #69056d;
-  margin-right: 450px;
-  margin-top: 10px;
-  margin-left: 10px;
-  cursor: pointer;
-  width: 50vw;
-  text-transform: uppercase;
-  font-size: small;
-  font-weight: bold;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-weight: bold;
+    width:fit-content
+  
+  
 }
 
 .section-btn{
   display: flex;
   justify-content: center;
 }
+.companies-img{
+  width: 10%;
+}
+
+.companies-img-circle{
+  width:70px;
+  height: auto;
+}
+#new-time-logo{
+  width: 250px;
+  height: auto;
+}
+.companies-img-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap:nowrap
+}
+.hidden-image{
+  display: none;
+  
+  
+}
+.desktop-img{
+  width: 500px;
+  height: auto;
+  
+}
+
+
+  .connect-title{
+    width: 40vh;
+    margin-left: 600px;
+    text-align: left;
+    font-size: 45px;
+    
   }
+
+  .main-content{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   
+  }
+  .main-content-p-desktop{
+   
+    width: 45vh;
+    margin-left: 580px;
+    font-size: 20px;
+    text-align: left;
+    margin-top: -20px;
+   
+  } 
+  #connect-img-position{
+    margin-top: -250px;
+  }
+  #main-content-p-desktop{
+   
+    width: 45vh;
+    margin-right: 580px;
+    font-size: 20px;
+    text-align: left;
+    margin-top: -20px;
+  } 
+
+  .speed-content-position{
+    margin-top: 20px;
+  }
+
+  #speed-img-position{
+    margin-top:-300px
+  }
+  #connect-img-position{
+    margin-top: -250px;
+  }
+  #flexy-title{
+    width: 40vh;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 45px;
+    margin-top: -300px;
+  }
+  .team-section >h3{
+    font-size: 45px;
+
+  }
+  .team-section br{
+    display: none;
+  }
+  .team-section p{
+   font-weight: bold; 
+   font-size: 15px;
+  }
+  .team-section-list{
+    display: flex;
+    flex-direction: row;
+    
+    
+  }
+  .team-section-list span {
+    font-size: 60px;
+    justify-content: space-between;
+    
+  }
+  .team-section-list li{
+    text-align: left;
+    margin-right: 130px;
+  }
+  #sales-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-weight: bold;
+    width:fit-content;
+    height: min-content;
+    font-size: 18px;
+    background-color: none;
+  
+}
+
+#try-btn{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-weight: bold;
+    width:fit-content;
+    font-size: 18px;
+    background-color: white;
+  
+}
+.welcome-section >h3{
+  font-size: 45px;
+}
+
+#footer-menu{
+  display:flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-weight: 700;
+  justify-content: space-between;
+}
+}
+
    
   
 
